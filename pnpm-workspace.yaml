@@ -1,0 +1,12 @@
+allowBuilds:
+  '@prisma/engines': true
+  esbuild: true
+  prisma: true
+# pnpm workspace settings (single-package workspace)
+# Allow dependencies to run their postinstall scripts:
+# - @prisma/engines / prisma: download the schema engine binaries
+# - esbuild: needed by tsx for TypeScript execution
+onlyBuiltDependencies:
+  - '@prisma/engines'
+  - esbuild
+  - prisma
