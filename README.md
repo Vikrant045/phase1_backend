@@ -1,4 +1,4 @@
-# Phase 1 — Task Management REST API
+
 
 A production-style task management backend (the brain behind apps like Trello / Todoist),
 built with **Node.js + TypeScript + Express 5 + Prisma 7 + PostgreSQL (Neon)**.
